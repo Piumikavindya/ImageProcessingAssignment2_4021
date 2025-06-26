@@ -19,19 +19,6 @@
 
 ---
 
-### Output
-All generated results will be saved in the `results/` folder:
-- `input_synthetic_image.png` – Clean synthetic image for Task 1.
-- `noisy_image.png` – Gaussian noise added.
-- `otsu_result.png` – Binary result from Otsu’s method.
-- `otsu_all_combined.png` – Combined visualization of all above.
-
-- `input_synthetic_image_region.png` – Synthetic image used for region growing.
-- `region_segmented.png` – Final result of region growing.
-- `region_combined.png` – Side-by-side input and output for Task 2.
-
----
-
 ### Run Instructions
 
 ```bash

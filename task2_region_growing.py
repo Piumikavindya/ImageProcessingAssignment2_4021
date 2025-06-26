@@ -40,7 +40,7 @@ segmented_img = region_growing(synthetic_input, seed=seed_point, threshold=15)
 
 cv2.imwrite("results/task2_region_segmented.png", segmented_img)
 
-# Display and save combined
+
 plt.figure(figsize=(8, 3))
 plt.subplot(1, 2, 1)
 plt.title("Input Image")
